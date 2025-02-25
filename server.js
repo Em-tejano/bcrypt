@@ -17,7 +17,7 @@ bcrypt.hash(myPlaintextPassword, saltRounds, (err, hash) => {
     bcrypt.compare(myPlaintextPassword, hash, (err, hash) => {
         //res = true/false
         console.log(res);
-    })
+    });
 });
 
 
